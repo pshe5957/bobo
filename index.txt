@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人生活记录</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.newzealand.com/assets/Tourism-NZ/Auckland/74c104b537/img-1536964423-740-5603-BCD86978-F3BA-4140-DAFDE302BC9DFB49__aWxvdmVrZWxseQo_FocalPointCropWzQyMCw2NDAsNDYsNTAsODUsImpwZyIsNjUsMi41XQ.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(255, 192, 203, 0.8);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .entry {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .entry h2 {
+            margin-top: 0;
+        }
+        .entry p {
+            white-space: pre-wrap; /* 保留换行符 */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 192, 203, 0.8);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人生活记录</h1>
+    </header>
+    <main>
+        <section class="entry">
+            <h2>今天的感悟</h2>
+            <p>记录你的每日感悟和心得。</p>
+        </section>
+        <!-- 更多感悟可以继续添加 -->
+    </main>
+    <footer>
+        &copy; 2024 个人生活记录
+    </footer>
+</body>
+</html>
